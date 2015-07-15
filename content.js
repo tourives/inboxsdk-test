@@ -1,4 +1,4 @@
-InboxSDK.load('1', 'Hello World!').then(function(sdk){
+InboxSDK.load('1', 'sdk_mindsettest1_9f74035a17').then(function(sdk){
 
 	// the SDK has been loaded, now do something with it!
 	sdk.Compose.registerComposeViewHandler(function(composeView){
