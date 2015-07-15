@@ -17,12 +17,13 @@ InboxSDK.load('1', 'sdk_mindsettest1_9f74035a17').then(function(sdk){
 	sdk.Lists.registerThreadRowViewHandler(function(listView){
 	
 		listView.addLabel({
-			title: "Rad",
-			iconUrl: 'https://lh5.googleusercontent.com/itq66nh65lfCick8cJ-OPuqZ8OUDTIxjCc25dkc4WUT1JG8XG3z6-eboCu63_uDXSqMnLRdlvQ=s128-h128-e365',
-			
-				
-		
-		})	
+			title: "Approve",
+			iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/39/IconApproved.png',
+		});
+		listView.addLabel({
+			title: "Reject",
+			iconUrl: 'https://cdn3.iconfinder.com/data/icons/musthave/256/Cancel.png',
+		})
 	});
 
 
